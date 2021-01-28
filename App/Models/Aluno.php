@@ -47,13 +47,13 @@
 
         public static function getAprovados(){
             $connPdo = new \PDO(DBDRIVE.': host='.DBHOST.'; dbname='.DBNAME, DBUSER, DBPASS);
-
+            
             $sql = 'SELECT a.nomeAluno, CAST(SUM(IF(ar.idResposta = g.idRespostaCorreta, true, false) / 2) AS DECIMAL(2,0)) AS nota FROM '.self::$table.' ar  
                         inner join gabarito g on ar.id_gabarito = g.id  
                         inner join resposta r on r.id_gabarito = g.id  
                         inner join aluno a on ar.id_aluno = a.id
-                              group by ar.id_aluno HAVING nota > 7 order by ar.id_aluno';
-
+                              group by ar.id_aluno HAVING nota > 8 order by ar.id_aluno';
+                              var_dump($sql);
             $stmt = $connPdo->prepare($sql);
             $stmt->execute();
 

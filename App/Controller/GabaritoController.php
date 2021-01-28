@@ -7,9 +7,6 @@
         public function get(){
         
         }
-        public function getAprovados(){
-            
-        }
 
         public function post(){
                return Gabarito::post($_POST['id'], $_POST['pergunta'], $_POST['idRespostaCorreta']);
