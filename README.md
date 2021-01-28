@@ -7,8 +7,8 @@ Esta aplicação oferece uma API onde poderar estar cadastrando o gabarito das p
 
 O Gabarito tanto da prova quanto do aluno, poderam ser cadastrados nos forms 
 
-- [ Cadastrar Gabarito ] (http://localhost/API_Escola/App/view/formCadastraGabarito.php)
-- [ Cadastrar Respostas do Aluno ] (http://localhost/aPI_Escola/App/view/formCadastraRespostasAluno.php)
+- [ Cadastrar Gabarito ] (http://localhost/API_Escola/App/view/formCadastraGabarito)
+- [ Cadastrar Respostas do Aluno ] (http://localhost/aPI_Escola/App/view/formCadastraRespostasAluno)
 
 ### 🛠 Ferramentas Utilizadas
 
