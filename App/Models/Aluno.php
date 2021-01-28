@@ -52,8 +52,7 @@
                         inner join gabarito g on ar.id_gabarito = g.id  
                         inner join resposta r on r.id_gabarito = g.id  
                         inner join aluno a on ar.id_aluno = a.id
-                              group by ar.id_aluno HAVING nota > 8 order by ar.id_aluno';
-                              var_dump($sql);
+                              group by ar.id_aluno HAVING nota > 7 order by ar.id_aluno';
             $stmt = $connPdo->prepare($sql);
             $stmt->execute();
 
