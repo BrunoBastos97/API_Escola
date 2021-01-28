@@ -2,7 +2,7 @@
    // header('Content-Type: application/json');
     
     require_once '../vendor/autoload.php';
-
+    
     if ($_GET['url']){
         $url = explode('/', $_GET['url']);
        // var_dump($url);
