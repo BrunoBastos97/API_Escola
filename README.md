@@ -32,6 +32,15 @@ O Gabarito tanto da prova quanto do aluno, poderam ser cadastrados nos forms.
 - Não podera cadastrar mais de 10 questões na prova.
 - Não podera cadastrar mais de 100 alunos.
 
+### Testes Unitários 
 
+- Para fazer os testes unitários acesse [ Testes ] (http://localhost/API_Escola/App/view/formTeste.php)
+
+<div align="center">
+    <img src="github/TesteUnitario.gif"
+    alt="Teste Unitario" height="425">
+     <img src="github/TesteUnitarioFalha.gif"
+    alt="Teste Unitario Falha" height="425">
+</div>
 
 
