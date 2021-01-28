@@ -15,7 +15,7 @@ O Gabarito tanto da prova quanto do aluno, poderam ser cadastrados nos forms
 
 - [ Composer ] (https://getcomposer.org/doc/)
 - [ Mysql ] (https://dev.mysql.com/doc/)
-- [ PHP ] (https://www.php.net/docs.php)
+- [ PHP ] (https://www.php.net/docs.php) 
 - [ WampServer ] (https://www.wampserver.com/en/)
 
 
