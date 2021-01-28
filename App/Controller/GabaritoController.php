@@ -12,7 +12,7 @@
         }
 
         public function post(){
-               return Gabarito::post($_POST['pergunta'], $_POST['idRespostaCorreta']);
+               return Gabarito::post($_POST['id'], $_POST['pergunta'], $_POST['idRespostaCorreta']);
 
         }
 
