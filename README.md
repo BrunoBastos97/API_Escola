@@ -34,7 +34,7 @@ O Gabarito tanto da prova quanto do aluno, poderam ser cadastrados nos forms.
 
 ### 🕵️‍♂️ Testes Unitários 
 
-- Para fazer os testes unitários acesse [<a herf="http://localhost/API_Escola/App/view/formTeste.php">Testes</a> ] 
+- Para fazer os testes unitários acesse <a herf="http://localhost/API_Escola/App/view/formTeste.php">Testes</a>  
 - As informações já vão está preenchidas
 
 <div align="center">
