@@ -5,11 +5,6 @@
 Esta aplicação oferece uma API onde poderar estar cadastrando o gabarito das provas, e os gabaritos dos alunos.
 
 
-O Gabarito tanto da prova quanto do aluno, poderam ser cadastrados nos forms. 
-
-- [Cadastrar Gabarito](http://localhost/API_Escola/App/view/formCadastraGabarito)
-- [Cadastrar Respostas do Aluno](http://localhost/API_Escola/App/view/formCadastraRespostasAluno) 
-
 ### 🛠 Ferramentas Utilizadas
 
 - [Composer](https://getcomposer.org/doc/)
@@ -26,6 +21,10 @@ O Gabarito tanto da prova quanto do aluno, poderam ser cadastrados nos forms.
 - Para verificar a nota de todos os alunos [Verificar notas](http://localhost/API_escola/public_html/api/aluno) , utilize o link.
 - Para verificar a nota de um determinado aluno exemplo aluno com o id 1 [Verificar nota do aluno](http://localhost/API_Escola/public_html/api/aluno/1) , utilize o link.
 - Para verificar a nota dos alunos que foram aprovados [Verificar alunos aprovados](http://localhost/API_Escola/public_html/api/aluno/aprovados) , utilize o link.
+
+O Gabarito tanto da prova quanto do aluno, poderam ser cadastrados nos forms. 
+- [Cadastrar Gabarito](http://localhost/API_Escola/App/view/formCadastraGabarito)
+- [Cadastrar Respostas do Aluno](http://localhost/API_Escola/App/view/formCadastraRespostasAluno) 
 
 ### ❌ Restrições da API/Bando de dados
 
