@@ -19,6 +19,7 @@ Esta aplicação oferece uma API onde poderar estar cadastrando o gabarito das p
 - Para Utilizar a API, é preciso ter um server, para isso obitenha o [WampServer](https://www.wampserver.com/en/) ou um outro da sua preferencia.
 - Se utilizado o [WampServer](https://www.wampserver.com/en/), faça o clone da pasta [API_Escola](https://github.com/BrunoBastos97/API_Escola) no github, na pasta www no WampServer.
 - Caso queira importe para o banco de dados Mysql o [banco.sql](https://github.com/BrunoBastos97/API_Escola/blob/main/banco.sql) , ou copie e cole em seguida aplique o mesmo.
+- Confira os dados do banco no arquivo config.php.
 - Para verificar a nota de todos os alunos [Verificar notas](http://localhost/API_escola/public_html/api/aluno) , utilize o link.
 - Para verificar a nota de um determinado aluno exemplo aluno com o id 1 [Verificar nota do aluno](http://localhost/API_Escola/public_html/api/aluno/1) , utilize o link.
 - Para verificar a nota dos alunos que foram aprovados [Verificar alunos aprovados](http://localhost/API_Escola/public_html/api/aluno/aprovados) , utilize o link.
