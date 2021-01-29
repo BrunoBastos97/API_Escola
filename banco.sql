@@ -20,10 +20,11 @@ create table resposta(
 ALTER TABLE resposta ADD CONSTRAINT fk_id_gabarito FOREIGN KEY ( id_gabarito ) REFERENCES gabarito ( id );
 
 create table alunoResposta(
-	id integer primary key not null auto_increment,
+	id integer primary key not null,
     id_Aluno integer not null,
     id_gabarito integer not null,
-    idResposta char(1) not null
+    idResposta char(1) not null,
+    CHECK (id <= 20)
 );
 
 ALTER TABLE alunoResposta ADD CONSTRAINT fk_id_aluno FOREIGN KEY ( id_aluno ) REFERENCES aluno ( id );
@@ -79,25 +80,25 @@ insert into resposta(id, idAlternativa, alternativa, id_gabarito) values('16', '
 /*Resposta Aluno*/
 
 ## 1°ALUNO
-insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(1, 1, 'a');
-insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(1, 2, 'a');
-insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(1, 3, 'b');
-insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(1, 4, 'b');
-insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(1, 5, 'a');
-insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(1, 6, 'a');
-insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(1, 7, 'b');
-insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(1, 8, 'b');
-##insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(1, 9, 'a');
-##insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(1, 10, 'a');
+insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(1, 1, 1, 'a');
+insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(2, 1, 2, 'a');
+insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(3, 1, 3, 'b');
+insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(4, 1, 4, 'b');
+insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(5, 1, 5, 'a');
+insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(6, 1, 6, 'a');
+insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(7, 1, 7, 'b');
+insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(8, 1, 8, 'b');
+##insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(9, 1, 9, 'a');
+##insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(10, 1, 10, 'a');
 
 ## 2°ALUNO
-insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(2, 1, 'a');
-insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(2, 2, 'a');
-insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(2, 3, 'b');
-insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(2, 4, 'a');
-insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(2, 5, 'a');
-insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(2, 6, 'a');
-insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(2, 7, 'a');
-insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(2, 8, 'b');
-##insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(2, 9, 'a');
-##insert into alunoResposta(id_aluno, id_gabarito, idResposta) values(2, 10, 'a');
+insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(11, 2, 1, 'a');
+insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(12, 2, 2, 'a');
+insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(13, 2, 3, 'b');
+insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(14, 2, 4, 'a');
+insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(15, 2, 5, 'a');
+insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(16, 2, 6, 'a');
+insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(17, 2, 7, 'a');
+insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(18, 2, 8, 'b');
+##insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(19, 2, 9, 'a');
+##insert into alunoResposta(id, id_aluno, id_gabarito, idResposta) values(20, 2, 10, 'a');

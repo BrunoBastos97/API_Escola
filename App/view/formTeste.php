@@ -12,7 +12,7 @@
 </form>
 
 <form action="../../public_html/api/alunoResposta" method="post">
-    ID da Pergunta
+    ID 
     <input type="text" name="id" id="id" value="20">
     <br>
     ID Aluno
