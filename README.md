@@ -12,7 +12,7 @@ O Gabarito tanto da prova quanto do aluno, poderam ser cadastrados nos forms.
 
 ### 🛠 Ferramentas Utilizadas
 
-- [ <a herf="https://getcomposer.org/doc/">Composer</a> ]
+- [Composer] (https://getcomposer.org/doc/)
 - [ <a herf="https://dev.mysql.com/doc/"> Mysql</a> ]
 - [ <a herf="https://www.php.net/docs.php">PHP</a> ]  
 - [ <a herf="https://www.wampserver.com/en/">WampServer</a> ]
