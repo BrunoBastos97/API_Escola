@@ -1,8 +1,6 @@
 
 <form action="../../public_html/api/alunoResposta" method="post">
     <h1> Cadastrar Respostas do Aluno </h1>
-    <br>
-    ID da Pergunta: <input type="text" name="id" id="id">
     <br><br>
     ID Aluno: <input type="text" name="id_aluno" id="id_aluno">
     <br><br>

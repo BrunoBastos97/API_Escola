@@ -9,7 +9,7 @@
         }
 
         public function post(){
-               return AlunoResposta::post($_POST['id'], $_POST['id_aluno'], $_POST['id_gabarito'],  $_POST['idResposta']);
+               return AlunoResposta::post($_POST['id_aluno'], $_POST['id_gabarito'],  $_POST['idResposta']);
                
         }
 
