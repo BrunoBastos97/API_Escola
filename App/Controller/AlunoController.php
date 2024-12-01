@@ -6,7 +6,7 @@
     class AlunoController{
         public function get($id = null){
 
-            if($id == 'aprovados'){
+            if($id == 'aprovados'){ 
                 return Aluno::getAprovados();
             }else{
                 if($id){
